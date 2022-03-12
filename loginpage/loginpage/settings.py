@@ -139,9 +139,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
-STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'static'))
+STATIC_ROOT = "THE-INDIAN-PLATE\loginpage\loginpage\static"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
 django_heroku.settings(locals())
