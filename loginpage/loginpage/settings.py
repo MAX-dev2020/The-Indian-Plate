@@ -30,7 +30,7 @@ SECRET_KEY = 'ah(rlcun+r_e)pxi3dsb=*u!=fz9m&5@*pu9w1$972rg585pd7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'theindianplate.herokuapp.com']
 
 
 # Application definition
