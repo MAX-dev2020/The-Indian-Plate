@@ -1,1 +1,1 @@
-web: gunicorn cs50.wsgi
+web: gunicorn django.wsgi
